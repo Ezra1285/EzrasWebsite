@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+}
+
+#firstPage {
+    border: 1px solid black;
+    height: 575px;
+}
+
+#firstPage ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+#firstPage li {
+    float: right;
+    
+}
+#firstPage li a {
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    padding-top: 25px;
+}
+#firstPage > h1,h2 {
+    color: white;
+    padding-left: 90px;
+}
+#firstPage > h1 {
+    padding-top: 80px;
+    font-size: 3.0em;
+}
+#firstPage > h2 {
+    font-size: 2.0em;
+}
+
+#aboutSection > h2{
+    color: black;
+}
+#portfolioSection > h2{
+    color: black;
+
+}
+#experienceSection > h2 {
+    color: black;
+}
+#contactSection > h2 {
+    color: black;
+}
+
+.sticky {
+    
+    background-color: #afafaf;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.startNavbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.bottomNavbar{
+    color: black;
+    size: 5em;
+    font-size: large;
+    border: 5px solid beige;
+}
+#nameItem {
+    visibility: hidden;
+    color: black;
+}
+
+.showName {
+    visibility: visible;
+    
+}
+
